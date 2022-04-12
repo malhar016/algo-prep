@@ -47,5 +47,5 @@ function buildUnDirectedGraph(relations) {
 
 const graph = buildUnDirectedGraph(relations);
 
-console.log(graph, "a", "p");
+// console.log(graph, "a", "p");
 console.log(findMinDistance(graph, "a", "p"));
