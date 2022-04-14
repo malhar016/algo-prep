@@ -18,6 +18,8 @@
         while(lastMaxIdx >= 0){
             if(maxQueue[lastMaxIdx] < nums[right]){
                 maxQueue.pop();
+            } else {
+                break; // if you cant pop current that means you can't pop any further
             }
             lastMaxIdx --;
         }
