@@ -51,8 +51,9 @@ function knapSackWithMemo(weights, values, W, n){
 //console.log(knapSackWithMemo([6, 3, 4, 1], [50, 30, 10, 20], 10, 4));
 //console.log(knapSackWithMemo([1, 4, 3, 6], [20, 10, 30, 50], 10, 4));
 //console.log(knapSackWithMemo([1, 3, 4, 6], [20, 30, 10, 50], 10, 4));
-console.log(knapSackWithMemo([6, 4, 1, 3], [50, 10, 20, 30], 10, 4));
+// console.log(knapSackWithMemo([6, 4, 1, 3], [50, 10, 20, 30], 10, 4));
 //console.log(knapSackWithMemo([1, 6, 3, 4], [20, 50, 30, 10], 10, 4));
 
 //console.log(knapSackWithMemo([4, 5, 1], [1, 2, 3], 4, 3));
+console.log(knapSackWithMemo([6, 3, 4, 1], [50, 30, 10, 20], 10, 4));
 
