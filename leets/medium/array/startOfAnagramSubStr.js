@@ -15,9 +15,10 @@ const findAnagramStarts = (s, p) => {
   let result = [];
   let charsNeeded = {};
 
-  // fulfil the charsNeeded object with number of occurences of each latter in search patter
+  // fulfil the charsNeeded object with number of occurences of each latter in search pattern
   // example: {'p': 3, 'k': 1, 'u': 2}
   for (let char of p) {
+    // charsNeeded[char] = charsNeeded[char] ? charsNeeded[char]++ : 1; 
     if (char in charsNeeded) {
       charsNeeded[char]++;
     } else {
